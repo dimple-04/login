@@ -45,10 +45,7 @@ loginbutton.grid(row=15, column=1,sticky=W)
 #------exit label-----
 Label(window,text='\nClick here to Exit:',bg='black',fg='orange',font='none 10 bold') .grid(row=17,column=0)
 
-#------exit Function-----
-def close_window():
-	window.destroy()
-	exit()
+
 	
 #------exit button-------
 exitbutton=Button(window,text="EXIT",bg='grey',fg='green',bd=10, command=close_window)
