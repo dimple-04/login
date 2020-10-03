@@ -19,7 +19,7 @@ Label(window,text="Email-ID",bg="BLACK",fg="ORANGE",font='none 10 bold') .grid(r
 
 Label(window,text="",bg='black') .grid(row=5,column=0)
 
-Label(window,text="Password  ",bg="BLACK",fg="ORANGE",font='none 10 bold') .grid(row=6,column=0, sticky=W)
+Label(window,text="password  ",bg="BLACK",fg="ORANGE",font='none 10 bold') .grid(row=6,column=0, sticky=W)
 
 Label(window,text="",bg='black') .grid(row=7,column=0)
 
@@ -52,6 +52,6 @@ def close_window():
 	
 #------exit button-------
 exitbutton=Button(window,text="EXIT",bg='grey',fg='green',bd=10, command=close_window)
-exitbutton.grid(row=18,column=0)
+exitbutton.grid(rows=18,columns=0)
 
 window.mainloop()
